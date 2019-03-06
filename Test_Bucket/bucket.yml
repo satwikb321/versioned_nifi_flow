@@ -1,4 +1,5 @@
 flows:
   53e63e6b-f4bc-45ed-90fd-acc85fa284b1: {ver: 1, file: Test_Flow_321.snapshot}
+  73e1f89b-8f2e-4d29-a7f2-36d106063621: {ver: 1, file: test_flow_latest.snapshot}
 layoutVer: 1
 bucketId: 6cb84c17-aa37-4b4a-a0e3-053495114cbd
