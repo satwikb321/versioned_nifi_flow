@@ -1,0 +1,122 @@
+{
+  "header" : {
+    "dataModelVersion" : "2"
+  },
+  "content" : {
+    "comments" : "",
+    "componentType" : "PROCESS_GROUP",
+    "connections" : [ ],
+    "controllerServices" : [ ],
+    "funnels" : [ ],
+    "identifier" : "6cb33b9e-8a94-3fb7-9915-00c6e04b75bb",
+    "inputPorts" : [ ],
+    "labels" : [ ],
+    "name" : "Test 123",
+    "outputPorts" : [ ],
+    "position" : {
+      "x" : 586.0,
+      "y" : 123.0
+    },
+    "processGroups" : [ ],
+    "processors" : [ {
+      "autoTerminatedRelationships" : [ ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.9.0"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "6cb33b9e-8a94-3fb7-9915-00c6e04b75bb",
+      "identifier" : "62199dc1-be4a-3cb2-922a-a265699d8e86",
+      "name" : "ListenUDP",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 446.0,
+        "y" : 80.0
+      },
+      "properties" : {
+        "Max Size of Socket Buffer" : "1 MB",
+        "Max Batch Size" : "1",
+        "Port" : "2058",
+        "Receive Buffer Size" : "65507 B",
+        "Character Set" : "UTF-8",
+        "Max Size of Message Queue" : "10000",
+        "Message Delimiter" : "\\n"
+      },
+      "propertyDescriptors" : {
+        "Sending Host" : {
+          "displayName" : "Sending Host",
+          "identifiesControllerService" : false,
+          "name" : "Sending Host",
+          "sensitive" : false
+        },
+        "Max Size of Socket Buffer" : {
+          "displayName" : "Max Size of Socket Buffer",
+          "identifiesControllerService" : false,
+          "name" : "Max Size of Socket Buffer",
+          "sensitive" : false
+        },
+        "Local Network Interface" : {
+          "displayName" : "Local Network Interface",
+          "identifiesControllerService" : false,
+          "name" : "Local Network Interface",
+          "sensitive" : false
+        },
+        "Max Batch Size" : {
+          "displayName" : "Max Batch Size",
+          "identifiesControllerService" : false,
+          "name" : "Max Batch Size",
+          "sensitive" : false
+        },
+        "Port" : {
+          "displayName" : "Port",
+          "identifiesControllerService" : false,
+          "name" : "Port",
+          "sensitive" : false
+        },
+        "Sending Host Port" : {
+          "displayName" : "Sending Host Port",
+          "identifiesControllerService" : false,
+          "name" : "Sending Host Port",
+          "sensitive" : false
+        },
+        "Receive Buffer Size" : {
+          "displayName" : "Receive Buffer Size",
+          "identifiesControllerService" : false,
+          "name" : "Receive Buffer Size",
+          "sensitive" : false
+        },
+        "Character Set" : {
+          "displayName" : "Character Set",
+          "identifiesControllerService" : false,
+          "name" : "Character Set",
+          "sensitive" : false
+        },
+        "Max Size of Message Queue" : {
+          "displayName" : "Max Size of Message Queue",
+          "identifiesControllerService" : false,
+          "name" : "Max Size of Message Queue",
+          "sensitive" : false
+        },
+        "Message Delimiter" : {
+          "displayName" : "Batching Message Delimiter",
+          "identifiesControllerService" : false,
+          "name" : "Message Delimiter",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.ListenUDP",
+      "yieldDuration" : "1 sec"
+    } ],
+    "remoteProcessGroups" : [ ],
+    "variables" : { }
+  }
+}
